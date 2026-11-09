@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tatung Electric Cooker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main class="app"><h1>Tatung Electric Cooker</h1><p>A simple three-state simulation</p>
+<div class="cooker" aria-label="Illustration of a green Tatung electric cooker"><div class="lid-handle"></div><div class="lid"></div><div class="rim"></div><div class="handle left"></div><div class="handle right"></div><div class="body"><div class="brand">TATUNG<small>大同電鍋</small></div><div class="panel"><div class="indicator"><span id="redLight" class="light red"></span><span>COOK</span></div><div class="indicator"><span id="greenLight" class="light green"></span><span>KEEP WARM</span></div></div><button id="cookSwitch" class="cook-switch" aria-label="Toggle cooking switch" aria-pressed="false">UP</button></div></div>
+<div class="status" id="status" role="status">OFF</div><div class="controls"><button class="control" id="powerButton" aria-pressed="false">Power: OFF</button><button class="control" id="waterButton" disabled>Simulate water running out</button></div><div class="hint">Turn on power, then press the cook switch DOWN. Click it again to return to KEEP WARM.</div></main>
+<script src="script.js"></script></body></html>
